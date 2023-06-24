@@ -1,0 +1,27 @@
+Sure, here are the steps to create a new repository on GitHub:
+
+1. **Create a new repository on GitHub:**
+    - Go to [GitHub](https://github.com/) and log in to your account.
+    - Click on the '+' icon at the top right corner of the page, then select 'New repository'.
+    - Name your repository (for example, "real-estate-app").
+    - Choose whether you want your repository to be public (visible to everyone) or private (only visible to you and people you invite).
+    - You can initialize the repository with a README, .gitignore, or license if you want, but this is not necessary.
+    - Click 'Create repository'.
+
+2. **Clone the repository to your local machine:**
+    - On the main page of the repository, click the 'Code' button.
+    - Copy the URL that appears.
+    - Open a terminal on your local machine.
+    - Navigate to the directory where you want to clone the repository.
+    - Type `git clone [URL]`, replacing `[URL]` with the URL you copied. Press Enter.
+
+3. **Add your Django project to the repository:**
+    - Move your Django project files into the cloned repository directory on your local machine.
+    - In the terminal, navigate to the repository directory.
+    - Type `git add .` to stage all the files for commit. Press Enter.
+    - Type `git commit -m "Initial commit"` to commit the files. Press Enter.
+
+4. **Push the commit to GitHub:**
+    - Type `git push origin main` to push the commit to the main branch on GitHub. Press Enter.
+
+Your Django project is now on GitHub. You can continue to make changes on your local machine, commit them, and push them to GitHub as you work on your project.
